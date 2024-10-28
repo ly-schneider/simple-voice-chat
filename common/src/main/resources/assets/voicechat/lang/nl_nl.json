@@ -5,6 +5,8 @@
   "key.disable_voice_chat": "Spraakchat uitschakelen",
   "key.hide_icons": "Verberg spraakchat pictogrammen",
   "key.voice_chat_settings": "Instellingen spraakchat",
+  "key.toggle_nametags": "Naamlabels In-/Uitzetten",
+  "key.toggle_on_talk_nametags": "Naamlabels Tijdens Gesprek In-/Uitzetten",
   "gui.voicechat.voice_chat_settings.title": "Instellingen spraakchat",
   "gui.voicechat.adjust_volume.title": "Volumes aanpassen",
   "gui.voicechat.select_microphone.title": "Selecteer Microfoon",
@@ -27,5 +29,11 @@
   "message.voicechat.back": "Terug",
   "message.voicechat.client_not_connected": "Client niet verbonden",
   "message.voicechat.icons_hidden": "Verborgen pictogrammen voor spraakchat",
-  "message.voicechat.icons_visible": "Zichtbare pictogrammen voor spraakchat"
+  "message.voicechat.icons_visible": "Zichtbare pictogrammen voor spraakchat",
+  "message.voicechat.display_nametags": "Naamlabels weergeven: %s",
+  "message.voicechat.display_nametags.on": "Aan",
+  "message.voicechat.display_nametags.off": "Uit",
+  "message.voicechat.on_talk_nametags": "Naamlabels tijdens gesprek: %s",
+  "message.voicechat.on_talk_nametags.on": "Aan",
+  "message.voicechat.on_talk_nametags.off": "Uit"
 }

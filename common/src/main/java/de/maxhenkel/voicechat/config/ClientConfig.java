@@ -45,6 +45,8 @@ public class ClientConfig {
     public ConfigEntry<Boolean> useNatives;
     public ConfigEntry<FreecamMode> freecamMode;
     public ConfigEntry<Boolean> muteOnJoin;
+    public ConfigEntry<Boolean> displayNametags;
+    public ConfigEntry<Boolean> onTalkNametags;
 
     public ClientConfig(ConfigBuilder builder) {
 
@@ -205,6 +207,14 @@ public class ClientConfig {
         muteOnJoin = builder
                 .booleanEntry("mute_on_join", false,
                         "If enabled, you will be automatically muted when joining a world"
+                );
+        displayNametags = builder
+                .booleanEntry("display_nametags", false,
+                        "If enabled, nametags will be displayed next to player icons if you are in a group"
+                );
+        onTalkNametags = builder
+                .booleanEntry("on_talk_nametags", false,
+                        "If enabled, nametags will only be displayed next to player icons if you are in a group and if the player talks, otherwise they will be displayed constantly"
                 );
     }
 

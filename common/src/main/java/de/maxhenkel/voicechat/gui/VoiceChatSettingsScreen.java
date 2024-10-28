@@ -74,7 +74,7 @@ public class VoiceChatSettingsScreen extends VoiceChatScreenBase {
         addRenderableWidget(keybindButton);
         y += 21 * 2;
 
-        addRenderableWidget(new EnumButton<>(guiLeft + 10, y, xSize - 20, 20, VoicechatClient.CLIENT_CONFIG.audioType) {
+        addRenderableWidget(new EnumButton<>(guiLeft + 10, y, isIngame() ? (xSize - 20) / 2 - 1 : xSize - 20, 20, VoicechatClient.CLIENT_CONFIG.audioType) {
             @Override
             protected Component getText(AudioType type) {
                 return Component.translatable("message.voicechat.audio_type", type.getText());
@@ -89,13 +89,15 @@ public class VoiceChatSettingsScreen extends VoiceChatScreenBase {
                 }
             }
         });
-        y += 21;
         if (isIngame()) {
             addRenderableWidget(Button.builder(ADJUST_VOLUMES, button -> {
                 minecraft.setScreen(new AdjustVolumesScreen());
-            }).bounds(guiLeft + 10, y, xSize - 20, 20).build());
-            y += 21;
+            }).bounds(guiLeft + xSize / 2 + 1, y, (xSize - 20) / 2 - 1, 20).build());
         }
+        y += 21;
+        addRenderableWidget(new ToggleDisplayNametagsButton(guiLeft + 10, y, (xSize - 20) / 2 - 1, 20));
+        addRenderableWidget(new ToggleOnTalkNametagsButton(guiLeft + xSize / 2 + 1, y, (xSize - 20) / 2 - 1, 20));
+        y += 21;
         addRenderableWidget(Button.builder(SELECT_MICROPHONE, button -> {
             minecraft.setScreen(new SelectMicrophoneScreen(this));
         }).bounds(guiLeft + 10, y, (xSize - 20) / 2 - 1, 20).build());

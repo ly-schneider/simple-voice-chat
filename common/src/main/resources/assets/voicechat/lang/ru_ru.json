@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Групповой голосовой чат",
   "key.voice_chat_toggle_recording": "Переключить запись",
   "key.voice_chat_adjust_volumes": "Настроить громкость",
+  "key.toggle_nametags": "Переключить именные ярлыки",
+  "key.toggle_on_talk_nametags": "Переключить именные ярлыки во время разговора",
   "gui.voicechat.voice_chat.title": "Голосовой чат",
   "gui.voicechat.voice_chat_settings.title": "Настройки голосового чата",
   "gui.voicechat.adjust_volume.title": "Настроить громкость",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Пригласить %s в вашу группу",
   "message.voicechat.press_to_reassign_key": "Нажмите, чтобы переназначить клавишу",
   "message.voicechat.set_up": "Нажмите %s для настройки",
+  "message.voicechat.display_nametags": "Показать именные ярлыки: %s",
+  "message.voicechat.display_nametags.on": "Включено",
+  "message.voicechat.display_nametags.off": "Выключено",
+  "message.voicechat.on_talk_nametags": "Именные ярлыки во время разговора: %s",
+  "message.voicechat.on_talk_nametags.on": "Включено",
+  "message.voicechat.on_talk_nametags.off": "Выключено",
   "message.voicechat.onboarding.reset": "Статус обучения сброшен",
   "message.voicechat.onboarding.next": "Далее",
   "message.voicechat.onboarding.confirm": "Подтвердить",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Позиция Y значков группы",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Позиция Y значков игроков в групповом HUD\nОтрицательные значения означают закрепление снизу",
   "cloth_config.voicechat.config.show_own_group_icon": "Показать собственный значок группового HUD",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Если собственный значок должен отображаться, когда вы находитесь в группе"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Если собственный значок должен отображаться, когда вы находитесь в группе",
+  "cloth_config.voicechat.config.display_nametags": "Показать именные ярлыки",
+  "cloth_config.voicechat.config.display_nametags.description": "Показывать именные ярлыки в голосовом чате",
+  "cloth_config.voicechat.config.on_talk_nametags": "Именные ярлыки во время разговора",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Показывать именные ярлыки во время разговора"
 }

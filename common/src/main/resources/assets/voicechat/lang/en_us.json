@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Group Management",
   "key.voice_chat_toggle_recording": "Toggle Recording",
   "key.voice_chat_adjust_volumes": "Adjust Volumes",
+  "key.toggle_nametags": "Toggle Nametags",
+  "key.toggle_on_talk_nametags": "Toggle On-Talk Nametags",
   "gui.voicechat.voice_chat.title": "Voice Chat",
   "gui.voicechat.voice_chat_settings.title": "Voice Chat Settings",
   "gui.voicechat.adjust_volume.title": "Adjust Volumes",
@@ -132,6 +134,12 @@
   "message.voicechat.invite_player": "Press to invite %s to your group.",
   "message.voicechat.press_to_reassign_key": "Press to assign a key.",
   "message.voicechat.set_up": "Press %s to set up",
+  "message.voicechat.display_nametags": "Display Nametags: %s",
+  "message.voicechat.display_nametags.on": "ON",
+  "message.voicechat.display_nametags.off": "OFF",
+  "message.voicechat.on_talk_nametags": "On-Talk Nametags: %s",
+  "message.voicechat.on_talk_nametags.on": "ON",
+  "message.voicechat.on_talk_nametags.off": "OFF",
   "message.voicechat.onboarding.reset": "Onboarding status has been reset",
   "message.voicechat.onboarding.next": "Next",
   "message.voicechat.onboarding.confirm": "Confirm",
@@ -208,5 +216,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Group chat HUD icon Y position",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "The Y position of the player icons in the group chat HUD.\nNegative values mean anchoring to the bottom instead.",
   "cloth_config.voicechat.config.show_own_group_icon": "Show yourself in the group chat HUD",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "If your own player icon should be displayed in the group chat HUD when you are in a group."
+  "cloth_config.voicechat.config.show_own_group_icon.description": "If your own player icon should be displayed in the group chat HUD when you are in a group.",
+  "cloth_config.voicechat.config.display_nametags": "Display nametags",
+  "cloth_config.voicechat.config.display_nametags.description": "If enabled, nametags will be displayed next to player icons if you are in a group",
+  "cloth_config.voicechat.config.on_talk_nametags": "On-Talk nametags",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "If enabled, nametags will only be displayed next to player icons if you are in a group and if the player talks, otherwise they will be displayed constantly"
 }

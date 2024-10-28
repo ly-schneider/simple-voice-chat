@@ -5,6 +5,8 @@
   "key.disable_voice_chat": "Desactivar xat de veu",
   "key.hide_icons": "Amaga els icones de xat de veu",
   "key.voice_chat_settings": "Paràmetres del xat de veu",
+  "key.toggle_nametags": "Activar / Desactivar Etiquetes de Nom",
+  "key.toggle_on_talk_nametags": "Activar Etiquetes de Nom en Conversa",
   "gui.voicechat.voice_chat_settings.title": "Paràmetres del xat de veu",
   "gui.voicechat.adjust_volume.title": "Ajusta el volum",
   "gui.voicechat.select_microphone.title": "Selecciona micròfon",
@@ -27,5 +29,11 @@
   "message.voicechat.back": "Enrere",
   "message.voicechat.client_not_connected": "El client no està connectat",
   "message.voicechat.icons_hidden": "Icones del xat de veu amagats",
-  "message.voicechat.icons_visible": "Icones del xat de veu visibles"
+  "message.voicechat.icons_visible": "Icones del xat de veu visibles",
+  "message.voicechat.display_nametags": "Mostrar etiquetes de nom: %s",
+  "message.voicechat.display_nametags.on": "Activat",
+  "message.voicechat.display_nametags.off": "Desactivat",
+  "message.voicechat.on_talk_nametags": "Etiquetes de nom en conversa: %s",
+  "message.voicechat.on_talk_nametags.on": "Activat",
+  "message.voicechat.on_talk_nametags.off": "Desactivat"
 }

@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Röstchattsgrupp",
   "key.voice_chat_toggle_recording": "Växla inspelning",
   "key.voice_chat_adjust_volumes": "Justera volymerna",
+  "key.toggle_nametags": "Växla Namnetiketter",
+  "key.toggle_on_talk_nametags": "Växla Namnetiketter under Samtal",
   "gui.voicechat.voice_chat.title": "Röstchatt",
   "gui.voicechat.voice_chat_settings.title": "Röstchattsinställningar",
   "gui.voicechat.adjust_volume.title": "Justera volymer",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Bjud in %s till din grupp",
   "message.voicechat.press_to_reassign_key": "Tryck för att tilldela om tangenten",
   "message.voicechat.set_up": "Tryck på %s för att ställa in",
+  "message.voicechat.display_nametags": "Visa namnetiketter: %s",
+  "message.voicechat.display_nametags.on": "På",
+  "message.voicechat.display_nametags.off": "Av",
+  "message.voicechat.on_talk_nametags": "Namnetiketter under samtal: %s",
+  "message.voicechat.on_talk_nametags.on": "På",
+  "message.voicechat.on_talk_nametags.off": "Av",
   "message.voicechat.onboarding.reset": "Ombordstigningsstatus har återställts",
   "message.voicechat.onboarding.next": "Nästa",
   "message.voicechat.onboarding.confirm": "Bekräfta",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Grupp ikon Y position",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Y-positionen för spelarikonerna i grupp-HUD:en\nNegativa värden innebär förankring i botten",
   "cloth_config.voicechat.config.show_own_group_icon": "Visa din egen grupps HUD ikon",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Om den egna ikonen ska visas när man är i en grupp"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Om den egna ikonen ska visas när man är i en grupp",
+  "cloth_config.voicechat.config.display_nametags": "Visa namnetiketter",
+  "cloth_config.voicechat.config.display_nametags.description": "Om namnetiketter ska visas",
+  "cloth_config.voicechat.config.on_talk_nametags": "Namnetiketter under samtal",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Om namnetiketter ska visas under samtal"
 }
