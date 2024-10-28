@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Група голосового чату",
   "key.voice_chat_toggle_recording": "Перемкнути запис",
   "key.voice_chat_adjust_volumes": "Відрегулювати гучність",
+  "key.toggle_nametags": "Переключити іменні мітки",
+  "key.toggle_on_talk_nametags": "Переключити іменні мітки під час розмови",
   "gui.voicechat.voice_chat.title": "Голосовий чат",
   "gui.voicechat.voice_chat_settings.title": "Налаштування голосового чату",
   "gui.voicechat.adjust_volume.title": "Відрегулювати гучність",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Запросити %s до вашої групи",
   "message.voicechat.press_to_reassign_key": "Натисніть, щоб перепризначити клавішу",
   "message.voicechat.set_up": "Натисніть %s, щоб встановити",
+  "message.voicechat.display_nametags": "Показати іменні мітки: %s",
+  "message.voicechat.display_nametags.on": "Увімкнено",
+  "message.voicechat.display_nametags.off": "Вимкнено",
+  "message.voicechat.on_talk_nametags": "Іменні мітки під час розмови: %s",
+  "message.voicechat.on_talk_nametags.on": "Увімкнено",
+  "message.voicechat.on_talk_nametags.off": "Вимкнено",
   "message.voicechat.onboarding.reset": "Статус приєднання було скинуто",
   "message.voicechat.onboarding.next": "Далі",
   "message.voicechat.onboarding.confirm": "Підтвердити",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Позиція значка групи по Y",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Позиція значків гравців у груповому HUD по Y\nВід’ємні значення означають прив’язку до низу",
   "cloth_config.voicechat.config.show_own_group_icon": "Показати значок HUD у власній групі",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Чи в групі має відображатися власний значок"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Чи в групі має відображатися власний значок",
+  "cloth_config.voicechat.config.display_nametags": "Показати іменні мітки",
+  "cloth_config.voicechat.config.display_nametags.description": "Показати іменні мітки гравців під час розмови",
+  "cloth_config.voicechat.config.on_talk_nametags": "Іменні мітки під час розмови",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Показати іменні мітки гравців під час розмови"
 }

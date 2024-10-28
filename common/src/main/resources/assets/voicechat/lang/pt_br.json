@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Grupo(s) do Voice Chat",
   "key.voice_chat_toggle_recording": "Começar a gravar",
   "key.voice_chat_adjust_volumes": "Ajustar volumes",
+  "key.toggle_nametags": "Ativar/Desativar Etiquetas de Nome",
+  "key.toggle_on_talk_nametags": "Ativar Etiquetas de Nome ao Falar",
   "gui.voicechat.voice_chat.title": "Voice Chat",
   "gui.voicechat.voice_chat_settings.title": "Configurações",
   "gui.voicechat.adjust_volume.title": "Ajustar volumes",
@@ -127,6 +129,12 @@
   "message.voicechat.audio_type.reduced": "Reduzido",
   "message.voicechat.audio_type.off": "Não",
   "message.voicechat.invite_player": "Convide %s para o seu grupo",
+  "message.voicechat.display_nametags": "Mostrar etiquetas de nome: %s",
+  "message.voicechat.display_nametags.on": "Ativado",
+  "message.voicechat.display_nametags.off": "Desativado",
+  "message.voicechat.on_talk_nametags": "Etiquetas de nome ao falar: %s",
+  "message.voicechat.on_talk_nametags.on": "Ativado",
+  "message.voicechat.on_talk_nametags.off": "Desativado",
   "resourcepack.voicechat.classic_icons": "Ícones Clássicos",
   "resourcepack.voicechat.classic_icons.description": "Ícones clássicos de bate-papo por voz",
   "resourcepack.voicechat.white_icons": "Ícones claros",
@@ -153,5 +161,7 @@
   "cloth_config.voicechat.config.group_hud_icon_scale": "Escala de ícone do grupo HUD",
   "cloth_config.voicechat.config.group_player_icon_pos_x": "Posição X do ícone do grupo",
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Posição Y do ícone do grupo",
-  "cloth_config.voicechat.config.show_own_group_icon": "Mostrar ícone HUD do próprio grupo"
+  "cloth_config.voicechat.config.show_own_group_icon": "Mostrar ícone HUD do próprio grupo",
+  "cloth_config.voicechat.config.display_nametags": "Mostrar etiquetas de nome",
+  "cloth_config.voicechat.config.on_talk_nametags": "Etiquetas de nome ao falar"
 }

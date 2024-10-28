@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Grupo do Voice Chat",
   "key.voice_chat_toggle_recording": "Alternar Gravação",
   "key.voice_chat_adjust_volumes": "Ajustar Volumes",
+  "key.toggle_nametags": "Ativar/Desativar Etiquetas de Nome",
+  "key.toggle_on_talk_nametags": "Ativar Etiquetas de Nome ao Falar",
   "gui.voicechat.voice_chat.title": "Chat de Voz",
   "gui.voicechat.voice_chat_settings.title": "Configurações do Chat de Voz",
   "gui.voicechat.adjust_volume.title": "Ajustar Volumes",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Convidar %s para o teu grupo",
   "message.voicechat.press_to_reassign_key": "Pressione para reatribuir a tecla",
   "message.voicechat.set_up": "Pressione %s para configurar",
+  "message.voicechat.display_nametags": "Mostrar etiquetas de nome: %s",
+  "message.voicechat.display_nametags.on": "Ativado",
+  "message.voicechat.display_nametags.off": "Desativado",
+  "message.voicechat.on_talk_nametags": "Etiquetas de nome ao falar: %s",
+  "message.voicechat.on_talk_nametags.on": "Ativado",
+  "message.voicechat.on_talk_nametags.off": "Desativado",
   "message.voicechat.onboarding.reset": "O status de integração foi redefinido",
   "message.voicechat.onboarding.next": "Próximo",
   "message.voicechat.onboarding.confirm": "Confirmar",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Posição Y do ícone do grupo",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "A posição Y dos ícones do HUD dos jogadores no grupo\nValores negativos significam ancoragem em baixo",
   "cloth_config.voicechat.config.show_own_group_icon": "Mostrar ícone HUD do próprio grupo",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Se o próprio ícone deve ser mostrado quando em um grupo"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Se o próprio ícone deve ser mostrado quando em um grupo",
+  "cloth_config.voicechat.config.display_nametags": "Mostrar etiquetas de nome",
+  "cloth_config.voicechat.config.display_nametags.description": "Se as etiquetas de nome devem ser mostradas",
+  "cloth_config.voicechat.config.on_talk_nametags": "Etiquetas de nome ao falar",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Se as etiquetas de nome devem ser mostradas ao falar"
 }

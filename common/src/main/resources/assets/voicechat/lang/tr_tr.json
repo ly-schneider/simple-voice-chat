@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Sesli Sohbet Grubu",
   "key.voice_chat_toggle_recording": "Kaydı Aç/Kapa",
   "key.voice_chat_adjust_volumes": "Ses Düzeylerini Ayarla",
+  "key.toggle_nametags": "İsim Etiketlerini Değiştir",
+  "key.toggle_on_talk_nametags": "Konuşurken İsim Etiketlerini Değiştir",
   "gui.voicechat.voice_chat.title": "Sesli Sohbet",
   "gui.voicechat.voice_chat_settings.title": "Sesli Sohbet Ayarları",
   "gui.voicechat.adjust_volume.title": "Ses Seviyelerini Ayarla",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Grubuna %s oyuncusunu davet et",
   "message.voicechat.press_to_reassign_key": "Tuşu atamak için tıkla",
   "message.voicechat.set_up": "Ayarlamak için %s tuşuna bas",
+  "message.voicechat.display_nametags": "İsim etiketlerini göster: %s",
+  "message.voicechat.display_nametags.on": "Açık",
+  "message.voicechat.display_nametags.off": "Kapalı",
+  "message.voicechat.on_talk_nametags": "Konuşma esnasında isim etiketleri: %s",
+  "message.voicechat.on_talk_nametags.on": "Açık",
+  "message.voicechat.on_talk_nametags.off": "Kapalı",
   "message.voicechat.onboarding.reset": "Ön kurulum durumu sıfırlandı",
   "message.voicechat.onboarding.next": "Sonraki",
   "message.voicechat.onboarding.confirm": "Onayla",
@@ -206,5 +214,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Grup simge Y pozisyonu",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Grup HUD oyuncu simgelerinin Y pozisyonu\nNegatif değerler aşağı doğru sabitler",
   "cloth_config.voicechat.config.show_own_group_icon": "Kendi grup HUD simgesini göster",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Bir gruptayken kendi ikonunun gösterilip gösterilmemesi"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Bir gruptayken kendi ikonunun gösterilip gösterilmemesi",
+  "cloth_config.voicechat.config.display_nametags": "İsim etiketlerini göster",
+  "cloth_config.voicechat.config.display_nametags.description": "Oyuncuların isim etiketlerini göster",
+  "cloth_config.voicechat.config.on_talk_nametags": "Konuşma esnasında isim etiketleri",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Konuşma esnasında isim etiketlerini göster"
 }

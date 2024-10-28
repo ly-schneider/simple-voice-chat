@@ -10,6 +10,8 @@
   "key.voice_chat_group": "語音聊天群組",
   "key.voice_chat_toggle_recording": "開關錄音",
   "key.voice_chat_adjust_volumes": "調整音量",
+  "key.toggle_nametags": "切換名字標籤",
+  "key.toggle_on_talk_nametags": "在對話中切換名字標籤",
   "gui.voicechat.voice_chat.title": "語音聊天",
   "gui.voicechat.voice_chat_settings.title": "語音聊天設定",
   "gui.voicechat.adjust_volume.title": "調整音量",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "邀請 %s 到你的群組",
   "message.voicechat.press_to_reassign_key": "按下以重新指派按鍵",
   "message.voicechat.set_up": "按下 %s 以設定",
+  "message.voicechat.display_nametags": "顯示名字標籤: %s",
+  "message.voicechat.display_nametags.on": "開啟",
+  "message.voicechat.display_nametags.off": "關閉",
+  "message.voicechat.on_talk_nametags": "對話中的名字標籤: %s",
+  "message.voicechat.on_talk_nametags.on": "開啟",
+  "message.voicechat.on_talk_nametags.off": "關閉",
   "message.voicechat.onboarding.reset": "已重設引導狀態",
   "message.voicechat.onboarding.next": "下一步",
   "message.voicechat.onboarding.confirm": "確認",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "群組圖示 Y 軸位置",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "群組 HUD 中玩家圖示的 Y 軸位置\n負值表示靠底部定位",
   "cloth_config.voicechat.config.show_own_group_icon": "顯示自己群組 HUD 圖示",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "當處於群組中時，是否顯示自己的圖示"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "當處於群組中時，是否顯示自己的圖示",
+  "cloth_config.voicechat.config.display_nametags": "顯示名字標籤",
+  "cloth_config.voicechat.config.display_nametags.description": "顯示名字標籤",
+  "cloth_config.voicechat.config.on_talk_nametags": "對話中的名字標籤",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "對話中的名字標籤"
 }

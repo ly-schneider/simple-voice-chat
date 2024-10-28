@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Stemmeprat gruppe",
   "key.voice_chat_toggle_recording": "Slå på/av opptak",
   "key.voice_chat_adjust_volumes": "Juster volum",
+  "key.toggle_nametags": "Veksle Navnetagger",
+  "key.toggle_on_talk_nametags": "Veksle Navnetagger under Snakking",
   "gui.voicechat.voice_chat.title": "Stemmeprat",
   "gui.voicechat.voice_chat_settings.title": "Stemmeprat innstillinger",
   "gui.voicechat.adjust_volume.title": "Juster volum",
@@ -126,6 +128,12 @@
   "message.voicechat.audio_type.reduced": "Redusert",
   "message.voicechat.audio_type.off": "AV",
   "message.voicechat.invite_player": "Inviter %s til gruppen",
+  "message.voicechat.display_nametags": "Vis navnetagger: %s",
+  "message.voicechat.display_nametags.on": "På",
+  "message.voicechat.display_nametags.off": "Av",
+  "message.voicechat.on_talk_nametags": "Navnetagger under samtale: %s",
+  "message.voicechat.on_talk_nametags.on": "På",
+  "message.voicechat.on_talk_nametags.off": "Av",
   "resourcepack.voicechat.classic_icons": "Klassiske ikon",
   "resourcepack.voicechat.classic_icons.description": "Klassiske stemmepratikon",
   "resourcepack.voicechat.white_icons": "Hvite ikon",
@@ -167,5 +175,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Gruppeikon Y pos",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Y-posisjonen til spillerikonene i gruppen HUD\nNegative verdier betyr forankring til bunnen",
   "cloth_config.voicechat.config.show_own_group_icon": "Vis eget gruppe HUD-ikon",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Om eget ikon skal vises når du er i en gruppe"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Om eget ikon skal vises når du er i en gruppe",
+  "cloth_config.voicechat.config.display_nametags": "Vis navnetagger",
+  "cloth_config.voicechat.config.display_nametags.description": "Om navnetagger skal vises",
+  "cloth_config.voicechat.config.on_talk_nametags": "Navnetagger under samtale",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Om navnetagger skal vises når du snakker"
 }

@@ -10,6 +10,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.resources.PlayerSkin;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.FastColor;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -64,10 +65,17 @@ public class GroupChatManager {
                 }
             }
 
+            int nameWidth = mc.font.width(state.getName());
+            int namePosX = posX < 0 ? -(nameWidth + 16 + 8) : 16 + 8;
+
             if (client.getTalkCache().isTalking(state.getUuid())) {
                 RenderSystem.setShader(GameRenderer::getPositionTexShader);
                 RenderSystem.setShaderColor(1F, 1F, 1F, 1F);
                 guiGraphics.blit(TALK_OUTLINE, posX < 0 ? -10 : 0, posY < 0 ? -10 : 0, 0, 0, 10, 10, 16, 16);
+
+                if (VoicechatClient.CLIENT_CONFIG.displayNametags.get() && VoicechatClient.CLIENT_CONFIG.onTalkNametags.get()) {
+                    displayNametag(guiGraphics, mc, state, namePosX);
+                }
             }
             RenderSystem.setShader(GameRenderer::getPositionTexShader);
             RenderSystem.setShaderColor(1F, 1F, 1F, 1F);
@@ -76,6 +84,10 @@ public class GroupChatManager {
             PlayerSkin skin = GameProfileUtils.getSkin(state.getUuid());
             guiGraphics.blit(skin.texture(), posX < 0 ? -1 - 8 : 1, posY < 0 ? -1 - 8 : 1, 8, 8, 8, 8, 64, 64);
             guiGraphics.blit(skin.texture(), posX < 0 ? -1 - 8 : 1, posY < 0 ? -1 - 8 : 1, 40, 8, 8, 8, 64, 64);
+
+            if (VoicechatClient.CLIENT_CONFIG.displayNametags.get() && !VoicechatClient.CLIENT_CONFIG.onTalkNametags.get()) {
+                displayNametag(guiGraphics, mc, state, namePosX);
+            }
 
             if (state.isDisabled()) {
                 guiGraphics.pose().pushPose();
@@ -116,4 +128,10 @@ public class GroupChatManager {
         return entries;
     }
 
+    private static void displayNametag(GuiGraphics guiGraphics, Minecraft mc, PlayerState state, int namePosX) {
+        guiGraphics.pose().pushPose();
+        guiGraphics.pose().scale(0.5F, 0.5F, 1F);
+        guiGraphics.drawString(mc.font, state.getName(), namePosX, 7, FastColor.ARGB32.color(255, 255, 255, 255), false);
+        guiGraphics.pose().popPose();
+    }
 }

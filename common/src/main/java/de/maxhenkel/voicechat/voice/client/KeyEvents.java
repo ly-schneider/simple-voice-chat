@@ -32,6 +32,8 @@ public class KeyEvents {
     public static KeyMapping KEY_GROUP;
     public static KeyMapping KEY_TOGGLE_RECORDING;
     public static KeyMapping KEY_ADJUST_VOLUMES;
+    public static KeyMapping KEY_DISPLAY_NAMETAGS;
+    public static KeyMapping KEY_ON_TALK_NAMETAGS;
 
     public static KeyMapping[] ALL_KEYS;
 
@@ -55,9 +57,11 @@ public class KeyEvents {
         KEY_GROUP = ClientCompatibilityManager.INSTANCE.registerKeyBinding(new KeyMapping("key.voice_chat_group", GLFW.GLFW_KEY_G, "key.categories.voicechat"));
         KEY_TOGGLE_RECORDING = ClientCompatibilityManager.INSTANCE.registerKeyBinding(new KeyMapping("key.voice_chat_toggle_recording", InputConstants.UNKNOWN.getValue(), "key.categories.voicechat"));
         KEY_ADJUST_VOLUMES = ClientCompatibilityManager.INSTANCE.registerKeyBinding(new KeyMapping("key.voice_chat_adjust_volumes", InputConstants.UNKNOWN.getValue(), "key.categories.voicechat"));
+        KEY_DISPLAY_NAMETAGS = ClientCompatibilityManager.INSTANCE.registerKeyBinding(new KeyMapping("key.toggle_nametags", InputConstants.UNKNOWN.getValue(), "key.categories.voicechat"));
+        KEY_ON_TALK_NAMETAGS = ClientCompatibilityManager.INSTANCE.registerKeyBinding(new KeyMapping("key.toggle_on_talk_nametags", InputConstants.UNKNOWN.getValue(), "key.categories.voicechat"));
 
         ALL_KEYS = new KeyMapping[]{
-                KEY_PTT, KEY_WHISPER, KEY_MUTE, KEY_DISABLE, KEY_HIDE_ICONS, KEY_VOICE_CHAT, KEY_VOICE_CHAT_SETTINGS, KEY_GROUP, KEY_TOGGLE_RECORDING, KEY_ADJUST_VOLUMES
+                KEY_PTT, KEY_WHISPER, KEY_MUTE, KEY_DISABLE, KEY_HIDE_ICONS, KEY_VOICE_CHAT, KEY_VOICE_CHAT_SETTINGS, KEY_GROUP, KEY_TOGGLE_RECORDING, KEY_ADJUST_VOLUMES, KEY_DISPLAY_NAMETAGS, KEY_ON_TALK_NAMETAGS
         };
     }
 
@@ -141,6 +145,26 @@ public class KeyEvents {
             } else {
                 player.displayClientMessage(Component.translatable("message.voicechat.icons_visible"), true);
             }
+        }
+
+        if (KEY_DISPLAY_NAMETAGS.consumeClick()) {
+            boolean enabled = !VoicechatClient.CLIENT_CONFIG.displayNametags.get();
+            VoicechatClient.CLIENT_CONFIG.displayNametags.set(enabled).save();
+
+            final Component ENABLED = Component.translatable("message.voicechat.display_nametags.on");
+            final Component DISABLED = Component.translatable("message.voicechat.display_nametags.off");
+
+            player.displayClientMessage(Component.translatable("message.voicechat.display_nametags", enabled ? ENABLED : DISABLED), true);
+        }
+
+        if (KEY_ON_TALK_NAMETAGS.consumeClick()) {
+            boolean enabled = !VoicechatClient.CLIENT_CONFIG.onTalkNametags.get();
+            VoicechatClient.CLIENT_CONFIG.onTalkNametags.set(enabled).save();
+
+            final Component ENABLED = Component.translatable("message.voicechat.on_talk_nametags.on");
+            final Component DISABLED = Component.translatable("message.voicechat.on_talk_nametags.off");
+
+            player.displayClientMessage(Component.translatable("message.voicechat.on_talk_nametags", enabled ? ENABLED : DISABLED), true);
         }
     }
 

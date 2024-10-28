@@ -5,6 +5,8 @@
   "key.disable_voice_chat": "Disabilita Chat Vocale",
   "key.hide_icons": "Nascondi le icone della Chat Vocale",
   "key.voice_chat_settings": "Impostazioni della Chat Vocale",
+  "key.toggle_nametags": "Attiva/Disattiva Etichette Nome",
+  "key.toggle_on_talk_nametags": "Attiva Etichette Nome Durante la Conversazione",
   "gui.voicechat.voice_chat_settings.title": "Impostazioni della Chat Vocale",
   "gui.voicechat.adjust_volume.title": "Imposta i volumi",
   "gui.voicechat.select_microphone.title": "Seleziona microfono",
@@ -27,5 +29,11 @@
   "message.voicechat.back": "Indietro",
   "message.voicechat.client_not_connected": "Client non connesso",
   "message.voicechat.icons_hidden": "Icone Chat Vocale nascoste",
-  "message.voicechat.icons_visible": "Icone Chat Vocale visibili"
+  "message.voicechat.icons_visible": "Icone Chat Vocale visibili",
+  "message.voicechat.display_nametags": "Mostra etichette nome: %s",
+  "message.voicechat.display_nametags.on": "Attivato",
+  "message.voicechat.display_nametags.off": "Disattivato",
+  "message.voicechat.on_talk_nametags": "Etichette nome durante la conversazione: %s",
+  "message.voicechat.on_talk_nametags.on": "Attivato",
+  "message.voicechat.on_talk_nametags.off": "Disattivato"
 }

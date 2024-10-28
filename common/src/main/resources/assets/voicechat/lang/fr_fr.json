@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Groupe de chat vocal",
   "key.voice_chat_toggle_recording": "Basculer l'enregistrement",
   "key.voice_chat_adjust_volumes": "Ajuster les volumes",
+  "key.toggle_nametags": "Activer/Désactiver les Étiquettes de Nom",
+  "key.toggle_on_talk_nametags": "Activer les Étiquettes de Nom en Parlant",
   "gui.voicechat.voice_chat.title": "Chat vocal",
   "gui.voicechat.voice_chat_settings.title": "Paramètres du chat vocal",
   "gui.voicechat.adjust_volume.title": "Ajuster les volumes",
@@ -129,6 +131,12 @@
   "message.voicechat.invite_player": "Inviter %s dans votre groupe",
   "message.voicechat.press_to_reassign_key": "Appuyez pour réassigner la touche",
   "message.voicechat.set_up": "Appuyez sur %s pour configurer",
+  "message.voicechat.display_nametags": "Afficher les étiquettes de nom : %s",
+  "message.voicechat.display_nametags.on": "Activé",
+  "message.voicechat.display_nametags.off": "Désactivé",
+  "message.voicechat.on_talk_nametags": "Étiquettes de nom lors de la conversation : %s",
+  "message.voicechat.on_talk_nametags.on": "Activé",
+  "message.voicechat.on_talk_nametags.off": "Désactivé",
   "message.voicechat.onboarding.reset": "L'assistance de configuration a été réinitialisée",
   "message.voicechat.onboarding.next": "Suivant",
   "message.voicechat.onboarding.confirm": "Confirmer",
@@ -199,5 +207,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Position Y de l'icône de groupe",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "La position Y des icônes de joueur dans l'interface utilisateur du groupe\nLes valeurs négatives signifient une ancrage en bas",
   "cloth_config.voicechat.config.show_own_group_icon": "Afficher son propre icône d'interface utilisateur de groupe",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Si votre propre icône doit être affiché lorsque vous êtes dans un groupe"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Si votre propre icône doit être affiché lorsque vous êtes dans un groupe",
+  "cloth_config.voicechat.config.display_nametags": "Afficher les étiquettes de nom",
+  "cloth_config.voicechat.config.display_nametags.description": "Si les badges doivent être affichés",
+  "cloth_config.voicechat.config.on_talk_nametags": "Étiquettes de nom lors de la conversation",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Si les badges doivent être portés lors de la prise de parole"
 }

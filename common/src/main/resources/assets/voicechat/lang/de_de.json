@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Gruppen Sprachchat",
   "key.voice_chat_toggle_recording": "Aufzeichnung umschalten",
   "key.voice_chat_adjust_volumes": "Lautstärken anpassen",
+  "key.toggle_nametags": "Nametags umschalten",
+  "key.toggle_on_talk_nametags": "On-Talk Nametags umschalten",
   "gui.voicechat.voice_chat.title": "Sprachchat",
   "gui.voicechat.voice_chat_settings.title": "Sprachchat Einstellungen",
   "gui.voicechat.adjust_volume.title": "Lautstärken anpassen",
@@ -129,6 +131,12 @@
   "message.voicechat.audio_type.reduced": "Reduziert",
   "message.voicechat.audio_type.off": "Aus",
   "message.voicechat.invite_player": "%s in Ihre Gruppe einladen",
+  "message.voicechat.display_nametags": "Namensschilder anzeigen: %s",
+  "message.voicechat.display_nametags.on": "Ein",
+  "message.voicechat.display_nametags.off": "Aus",
+  "message.voicechat.on_talk_nametags": "Namensschilder während Gespräche: %s",
+  "message.voicechat.on_talk_nametags.on": "Ein",
+  "message.voicechat.on_talk_nametags.off": "Aus",
   "message.voicechat.onboarding.reset": "Einrichtungsstatus zurückgesetzt",
   "message.voicechat.onboarding.next": "Weiter",
   "message.voicechat.onboarding.confirm": "Bestätigen",
@@ -189,5 +197,7 @@
   "cloth_config.voicechat.config.group_hud_icon_scale": "Gruppenoberflächen Symbol Skalierung",
   "cloth_config.voicechat.config.group_player_icon_pos_x": "Gruppenoberflächen Symbol X position",
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Gruppenoberflächen Symbol Y position",
-  "cloth_config.voicechat.config.show_own_group_icon": "Eigenes Gruppenoberflächen Symbol anzeigen"
+  "cloth_config.voicechat.config.show_own_group_icon": "Eigenes Gruppenoberflächen Symbol anzeigen",
+  "cloth_config.voicechat.config.display_nametags": "Namensschilder anzeigen",
+  "cloth_config.voicechat.config.on_talk_nametags": "Namensschilder während Gespräche"
 }

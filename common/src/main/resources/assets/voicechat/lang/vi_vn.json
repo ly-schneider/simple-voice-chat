@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Nhóm voice chat",
   "key.voice_chat_toggle_recording": "Bật/Tắt ghi âm",
   "key.voice_chat_adjust_volumes": "Điều chỉnh âm lượng",
+  "key.toggle_nametags": "Bật/Tắt Nhãn Tên",
+  "key.toggle_on_talk_nametags": "Bật Nhãn Tên Khi Nói",
   "gui.voicechat.voice_chat.title": "Trò chuyện bằng giọng nói",
   "gui.voicechat.voice_chat_settings.title": "Cài đặt",
   "gui.voicechat.adjust_volume.title": "Điều chỉnh âm lượng",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Mời %s vào nhóm của bạn",
   "message.voicechat.press_to_reassign_key": "Nhấn để gán lại phím",
   "message.voicechat.set_up": "Nhấn %s để thiết lập",
+  "message.voicechat.display_nametags": "Hiển thị nhãn tên: %s",
+  "message.voicechat.display_nametags.on": "Bật",
+  "message.voicechat.display_nametags.off": "Tắt",
+  "message.voicechat.on_talk_nametags": "Nhãn tên khi nói: %s",
+  "message.voicechat.on_talk_nametags.on": "Bật",
+  "message.voicechat.on_talk_nametags.off": "Tắt",
   "message.voicechat.onboarding.reset": "Trạng thái giới thiệu đã được đặt lại",
   "message.voicechat.onboarding.next": "Tiếp theo",
   "message.voicechat.onboarding.confirm": "Xác nhận",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Vị trí Y biểu tượng nhóm",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Vị trí Y của biểu tượng nhóm ở HUD\nGiá trị lớn hơn sẽ làm lệch dưới nhiều hơn",
   "cloth_config.voicechat.config.show_own_group_icon": "Hiện icon của bạn",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Icon của bạn có được hiển trị khi trong nhóm"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Icon của bạn có được hiển trị khi trong nhóm",
+  "cloth_config.voicechat.config.display_nametags": "Hiển thị nhãn tên",
+  "cloth_config.voicechat.config.display_nametags.description": "Hiển thị nhãn tên của người chơi khi họ nói",
+  "cloth_config.voicechat.config.on_talk_nametags": "Nhãn tên khi nói",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Hiển thị nhãn tên của người chơi khi họ nói"
 }

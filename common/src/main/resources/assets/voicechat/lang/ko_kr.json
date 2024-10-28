@@ -10,6 +10,8 @@
   "key.voice_chat_group": "음성 채팅 그룹",
   "key.voice_chat_toggle_recording": "녹음 토글",
   "key.voice_chat_adjust_volumes": "플레이어 볼륨 조절",
+  "key.toggle_nametags": "이름표 전환",
+  "key.toggle_on_talk_nametags": "대화 시 이름표 전환",
   "gui.voicechat.voice_chat.title": "음성 채팅",
   "gui.voicechat.voice_chat_settings.title": "음성 채팅 설정",
   "gui.voicechat.adjust_volume.title": "플레이어 볼륨 조절",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "그룹에 %s 초대",
   "message.voicechat.press_to_reassign_key": "키를 재할당하려면 누르세요",
   "message.voicechat.set_up": "설정하려면 %s을(를) 누르세요",
+  "message.voicechat.display_nametags": "이름표 표시: %s",
+  "message.voicechat.display_nametags.on": "켜짐",
+  "message.voicechat.display_nametags.off": "꺼짐",
+  "message.voicechat.on_talk_nametags": "대화 중 이름표: %s",
+  "message.voicechat.on_talk_nametags.on": "켜짐",
+  "message.voicechat.on_talk_nametags.off": "꺼짐",
   "message.voicechat.onboarding.reset": "온보딩 상태가 초기화되었습니다",
   "message.voicechat.onboarding.next": "다음",
   "message.voicechat.onboarding.confirm": "확인",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "그룹 아이콘 Y 좌표",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "그룹 HUD에서 플레이어 아이콘의 Y 위치\n음수 값은 하단에 고정됨을 의미합니다",
   "cloth_config.voicechat.config.show_own_group_icon": "자신의 그룹 HUD 아이콘 표시",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "그룹에 있을 때 자신의 아이콘을 표시할지 여부"
+  "cloth_config.voicechat.config.show_own_group_icon.description": "그룹에 있을 때 자신의 아이콘을 표시할지 여부",
+  "cloth_config.voicechat.config.display_nametags": "이름표 표시",
+  "cloth_config.voicechat.config.display_nametags.description": "플레이어 위에 이름표를 표시할지 여부",
+  "cloth_config.voicechat.config.on_talk_nametags": "대화 중 이름표",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "플레이어가 말할 때만 이름표를 표시할지 여부"
 }

@@ -10,6 +10,8 @@
   "key.voice_chat_group": "Zarządzanie grupą",
   "key.voice_chat_toggle_recording": "Przełącz nagrywanie",
   "key.voice_chat_adjust_volumes": "Regulacja głośności",
+  "key.toggle_nametags": "Przełącz etykiety imion",
+  "key.toggle_on_talk_nametags": "Przełącz etykiety imion podczas rozmowy",
   "gui.voicechat.voice_chat.title": "Czat głosowy",
   "gui.voicechat.voice_chat_settings.title": "Ustawienia czatu głosowego",
   "gui.voicechat.adjust_volume.title": "Regulacja głośności",
@@ -131,6 +133,12 @@
   "message.voicechat.invite_player": "Naciśnij, aby zaprosić gracza %s do swojej grupy.",
   "message.voicechat.press_to_reassign_key": "Naciśnij, aby przypisać klawisz.",
   "message.voicechat.set_up": "Naciśnij „%s”, aby skonfigurować",
+  "message.voicechat.display_nametags": "Wyświetl etykiety imion: %s",
+  "message.voicechat.display_nametags.on": "Włączone",
+  "message.voicechat.display_nametags.off": "Wyłączone",
+  "message.voicechat.on_talk_nametags": "Etykiety imion podczas rozmowy: %s",
+  "message.voicechat.on_talk_nametags.on": "Włączone",
+  "message.voicechat.on_talk_nametags.off": "Wyłączone",
   "message.voicechat.onboarding.reset": "Status przewodnika konfiguracji został zresetowany",
   "message.voicechat.onboarding.next": "Dalej",
   "message.voicechat.onboarding.confirm": "Potwierdź",
@@ -207,5 +215,9 @@
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Pozycja Y ikon HUD-a czatu grupowego",
   "cloth_config.voicechat.config.group_player_icon_pos_y.description": "Pozycja Y ikon graczy w interfejsie HUD czatu grupowego.\nWartości ujemne oznaczają zakotwiczenie do dołu zamiast do góry.",
   "cloth_config.voicechat.config.show_own_group_icon": "Pokazywanie siebie w HUD czatu grupowego",
-  "cloth_config.voicechat.config.show_own_group_icon.description": "Określa, czy Twoja ikona gracza ma być wyświetlana w interfejsie HUD czatu grupowego, gdy jesteś w jakiejś grupie."
+  "cloth_config.voicechat.config.show_own_group_icon.description": "Określa, czy Twoja ikona gracza ma być wyświetlana w interfejsie HUD czatu grupowego, gdy jesteś w jakiejś grupie.",
+  "cloth_config.voicechat.config.display_nametags": "Wyświetl etykiety imion",
+  "cloth_config.voicechat.config.display_nametags.description": "Określa, czy etykiety imion graczy mają być wyświetlane w grze.",
+  "cloth_config.voicechat.config.on_talk_nametags": "Etykiety imion podczas rozmowy",
+  "cloth_config.voicechat.config.on_talk_nametags.description": "Określa, czy etykiety imion graczy mają być wyświetlane tylko podczas rozmowy."
 }

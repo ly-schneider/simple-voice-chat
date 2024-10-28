@@ -9,6 +9,8 @@
   "key.voice_chat": "GUI hlasové komunikace",
   "key.voice_chat_group": "Skupina hlasové komunikace",
   "key.voice_chat_toggle_recording": "Přepnout nahrávání",
+  "key.toggle_nametags": "Přepnout jmenovky",
+  "key.toggle_on_talk_nametags": "Přepnout jmenovky při hovoru",
   "gui.voicechat.voice_chat.title": "Hlasová komunikace",
   "gui.voicechat.voice_chat_settings.title": "Nastavení hlasové komunikace",
   "gui.voicechat.adjust_volume.title": "Nastavení hlasitosti",
@@ -93,6 +95,12 @@
   "message.voicechat.show_group_hud.disabled": "Zobrazit HUD skupinového chatu",
   "message.voicechat.recording.disabled": "Zapnout nahrávání",
   "message.voicechat.recording.enabled": "Zastavit nahrávání",
+  "message.voicechat.display_nametags": "Zobrazit jmenovky: %s",
+  "message.voicechat.display_nametags.on": "Zapnuto",
+  "message.voicechat.display_nametags.off": "Vypnuto",
+  "message.voicechat.on_talk_nametags": "Jmenovky během hovoru: %s",
+  "message.voicechat.on_talk_nametags.on": "Zapnuto",
+  "message.voicechat.on_talk_nametags.off": "Vypnuto",
   "cloth_config.voicechat.settings": "Nastavení hlasové komunikace",
   "cloth_config.voicechat.category.audio": "Zvuk",
   "cloth_config.voicechat.category.hud_icons": "HUD ikony",
@@ -110,5 +118,7 @@
   "cloth_config.voicechat.config.group_hud_icon_scale": "Velikost skupinové HUD ikony",
   "cloth_config.voicechat.config.group_player_icon_pos_x": "Skupinová HUD ikona X pos",
   "cloth_config.voicechat.config.group_player_icon_pos_y": "Skupinová HUD ikona Y pos",
-  "cloth_config.voicechat.config.show_own_group_icon": "Zobrazit vlastní skupinovou HUD ikonu"
+  "cloth_config.voicechat.config.show_own_group_icon": "Zobrazit vlastní skupinovou HUD ikonu",
+  "cloth_config.voicechat.config.display_nametags": "Zobrazit jmenovky",
+  "cloth_config.voicechat.config.on_talk_nametags": "Jmenovky během hovoru"
 }
